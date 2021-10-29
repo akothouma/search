@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+.input {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    padding: 20px;
+}
+.input i{
+   color: black;
+}
+.input input[type=text]{
+    opacity: 0;
+} 
+
+
+.input input[type=text].active{
+        opacity: 1;
+}
+
